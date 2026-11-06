@@ -1,0 +1,33 @@
+{
+    "schemaVersion":  1,
+    "id":  "hwelladdon",
+    "version":  "0.1.0",
+    "name":  "HwellAddon",
+    "description":  "Meteor Client addon by hùng|hwell.",
+    "authors":  [
+                    "hùng|hwell"
+                ],
+    "icon":  "assets/hwelladdon/icon.png",
+    "environment":  "client",
+    "entrypoints":  {
+                        "meteor":  [
+                                       "com.hwell.hwelladdon.HwellAddon"
+                                   ]
+                    },
+    "mixins":  [
+                   "hwelladdon.mixins.json"
+               ],
+    "custom":  {
+                   "meteor-client:color":  "225,25,25",
+                   "modmenu":  {
+                                   "parent":  {
+                                                  "id":  "meteor-client"
+                                              }
+                               }
+               },
+    "depends":  {
+                    "java":  ">=21",
+                    "meteor-client":  "*",
+                    "minecraft":  "1.21.11"
+                }
+}

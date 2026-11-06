@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.hwell.hwelladdon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ExampleMixin",
+    "InventoryControlMixin",
+     "GrimBypassMixin",
+	"SilentScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
